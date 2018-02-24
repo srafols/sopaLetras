@@ -1,0 +1,6 @@
+
+
+string paraula;
+nat _fila;
+nat _columna;
+orientacion::orientacion ori;

@@ -1,0 +1,10 @@
+
+
+
+char** sopa;
+nat num_files;
+nat num_files_fix;
+nat num_columnes;
+bool mida_fixa;
+
+

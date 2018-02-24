@@ -1,0 +1,9 @@
+
+
+
+nat _fila;
+nat _columna;
+orientacion::orientacion ori;
+nat _longitud;
+
+

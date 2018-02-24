@@ -1,0 +1,24 @@
+
+
+
+struct node{
+	node* esq;
+	node* centre;
+	node* dret;
+	bool final;
+	char info;
+};
+
+
+node* arrel;
+node* arrel_real;
+
+
+
+static void borra_tst(node* first) throw();
+static node* copia_tst (const node* origen) throw(error);
+static node* inserta_tst( node* primer, const string& par, unsigned int pos) throw(error);
+static void busca_paraula(const node* ori, const string& word, unsigned int
+pos, bool fi, string& cons, string& aux) throw (error);
+static void buscar_patron(const string& pa, list<string>& Li, const node* first,unsigned int pos, string spatron, bool fi) throw (error);
+
